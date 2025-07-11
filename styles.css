@@ -1,0 +1,48 @@
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+/* Section styles */
+.veg-section {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.veg-section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Background colors */
+.overview-bg { background-color: #f1f8e9; }
+.carrot-bg { background-color: #ffe0b2; }         /* Light orange */
+.broccoli-bg { background-color: #c8e6c9; }       /* Light green */
+.eggplant-bg { background-color: #e1bee7; }       /* Light purple */
+.spinach-bg { background-color: #b2dfdb; }        /* Light teal green */
+.bellpepper-bg { background-color: #ffccbc; }     /* Light red/orange */
+.cucumber-bg { background-color: #d0f0c0; }       /* Light greenish */
+
+/* Image hover effect */
+.hover-lift {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.hover-lift:hover {
+  transform: translateY(-10px);
+}
+
+/* Navbar hover effect */
+.navbar .nav-link {
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.navbar .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
